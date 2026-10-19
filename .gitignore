@@ -1,0 +1,7 @@
+# 내보낸 원본은 로컬에 보관하고 게시용 index.html만 버전 관리합니다.
+코인시던스 회사 홈페이지.html
+
+# 일회성 작업 및 브라우저 검증 산출물
+.local/
+output/playwright/
+.playwright-cli/
