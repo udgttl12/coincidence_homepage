@@ -2,9 +2,10 @@
 
 코인시던스 회사 소개 HTML을 GitHub Pages로 게시하는 저장소입니다.
 
-- 홈페이지: https://udgttl12.github.io/coincidence_homepage/
+- 홈페이지: https://coincidence.ai.kr/
 - 게시 파일: `index.html`
 - 게시 소스: `main` 브랜치의 루트(`/`)
+- 사용자 도메인: `CNAME` 파일의 `coincidence.ai.kr`
 - `.nojekyll`: Jekyll 처리 없이 정적 파일을 그대로 게시합니다.
 
 ## 수정 및 게시
