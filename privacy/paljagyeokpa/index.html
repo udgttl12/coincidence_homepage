@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="팔자격파 앱의 개인정보 처리 항목, 외부 AI 전송, 보관·삭제 방법과 코인시던스 문의처를 안내합니다.">
+<meta name="description" content="팔자격파 정식판의 기기 내 개인정보 처리, 공유·백업, 보관·삭제 방법과 코인시던스 문의처를 안내합니다.">
 <meta name="theme-color" content="#0f172a">
 <title>팔자격파 개인정보처리방침 | 코인시던스</title>
 <link rel="canonical" href="https://coincidence.ai.kr/privacy/paljagyeokpa/">
@@ -34,17 +34,17 @@ footer{border-top:1px solid var(--line);padding:28px;color:var(--muted);font-siz
 <main id="policy">
 <p class="eyebrow">PALJAGYEOKPA · PRIVACY</p>
 <h1>팔자격파 개인정보처리방침</h1>
-<p class="intro">코인시던스는 팔자격파 앱에서 처리하는 개인정보와 이용 목적, 외부 서비스 전송, 보관 및 삭제 방법을 다음과 같이 안내합니다.</p>
-<p class="meta">시행일 및 최종 수정일: <time datetime="2026-10-30">2026년 10월 30일</time><br>적용 대상: 팔자격파 Android 앱 · 패키지명 kr.ai.coincidence.paljagyeokpa</p>
+<p class="intro">코인시던스는 AI 풀이 없는 팔자격파 정식판에서 처리하는 개인정보와 이용 목적, 공유·백업, 보관 및 삭제 방법을 다음과 같이 안내합니다.</p>
+<p class="meta">시행일 및 최종 수정일: <time datetime="2026-10-30">2026년 10월 30일</time><br>적용 대상: AI 풀이 없는 팔자격파 정식판 · 패키지명 kr.ai.coincidence.paljagyeokpa</p>
 <div class="summary" aria-label="주요 내용">
 <p><strong>기본 만세력 계산과 기록 저장은 기기 안에서 처리합니다.</strong></p>
-<p>전문가 AI 풀이를 요청하면 이름·생년월일시·성별과 사주 계산 결과가 외부 Grok API로 전송됩니다.</p>
+<p>정식판은 AI 풀이를 제공하지 않으며, 사주 입력 정보와 계산 결과를 외부 AI 서버로 전송하지 않습니다.</p>
 <p>공유·백업 파일에는 개인정보가 포함될 수 있습니다. 기기 내 기록 삭제와 외부 서비스의 보관·삭제는 처리 범위가 다릅니다.</p>
 <p>개인정보 문의: <a href="mailto:coincidence0407@gmail.com">coincidence0407@gmail.com</a></p>
 </div>
 <nav aria-label="목차"><h2>목차</h2><ol>
 <li><a href="#operator">운영자와 문의처</a></li><li><a href="#data">처리하는 정보와 목적</a></li>
-<li><a href="#ai">외부 AI 처리와 국외 전송</a></li><li><a href="#services">기타 외부 서비스</a></li>
+<li><a href="#ai">정식판과 AI판의 구분</a></li><li><a href="#services">기타 외부 서비스</a></li>
 <li><a href="#retention">보유 기간과 파기</a></li><li><a href="#sharing">공유·백업과 기기 이전</a></li>
 <li><a href="#rights">이용자의 권리와 행사 방법</a></li><li><a href="#security">안전성 확보와 앱 권한</a></li>
 <li><a href="#children">아동 및 타인의 정보</a></li><li><a href="#changes">방침 변경과 이력</a></li>
@@ -55,65 +55,56 @@ footer{border-top:1px solid var(--line);padding:28px;color:var(--muted);font-siz
 <section id="data"><h2>2. 처리하는 정보와 목적</h2>
 <p>앱은 별도의 회원가입 없이 기본 만세력 기능을 이용할 수 있습니다. 사용자가 직접 입력한 정보와 앱에서 계산·생성한 정보를 다음 목적으로 처리합니다.</p>
 <div class="table-wrap"><table><caption>정보별 처리 목적과 보관 위치</caption><thead><tr><th scope="col">정보</th><th scope="col">목적</th><th scope="col">처리 위치</th></tr></thead><tbody>
-<tr><td>이름 또는 별칭, 생년월일, 태어난 시간, 성별, 양력·음력·윤달 선택 정보</td><td>사주 계산, 결과 표시, 저장 기록 구분·조회</td><td>기기 내. 전문가 AI 풀이 요청 시 필요한 정보가 외부 전송됨</td></tr>
-<tr><td>사주팔자, 십신, 신살, 대운·세운·월운 등 계산 결과</td><td>만세력 결과 제공, 사주 비교, 해석 생성</td><td>기기 내. 전문가 AI 풀이 요청 시 관련 결과가 외부 전송됨</td></tr>
-<tr><td>그룹, 즐겨찾기, 생성된 풀이, 조회·저장 시각과 화면 설정</td><td>기록 관리, 풀이 재조회와 사용 환경 유지</td><td>기기 내. 공유·백업을 선택하면 선택한 대상에도 전달됨</td></tr>
-<tr><td>사용자가 설정에서 입력한 외부 서비스 인증 토큰</td><td>해당 외부 서비스 설정 유지</td><td>기기의 보안 저장소. 사주 백업 JSON에는 포함하지 않음</td></tr>
+<tr><td>이름 또는 별칭, 생년월일, 태어난 시간, 성별, 양력·음력·윤달 선택 정보</td><td>사주 계산, 결과 표시, 저장 기록 구분·조회</td><td>기기 내. 사용자가 공유·백업하는 경우 선택한 대상에 전달됨</td></tr>
+<tr><td>사주팔자, 십신, 신살, 대운·세운·월운 등 계산 결과</td><td>만세력 결과 제공, 사주 비교, 명리 정보 표시</td><td>기기 내. 사용자가 공유·백업하는 경우 선택한 대상에 전달됨</td></tr>
+<tr><td>그룹, 즐겨찾기, 조회·저장 시각과 화면 설정, 이전 버전·백업에 남은 풀이</td><td>기록 관리, 기존 백업 호환과 사용 환경 유지</td><td>기기 내. 공유·백업을 선택하면 선택한 대상에도 전달됨</td></tr>
 <tr><td>문의 이메일 주소, 문의 내용과 사용자가 제공한 진단 정보</td><td>문의 처리, 권리행사와 오류 확인</td><td>문의 이메일 서비스와 담당자의 업무 환경</td></tr>
 </tbody></table></div>
 <p>간편모드에서는 이름 없이 생년월일시분과 성별로 조회할 수 있습니다. 코인시던스는 기본 계산이나 기록 동기화를 위해 별도의 회원 계정 서버에 사주 기록을 자동 업로드하지 않습니다.</p>
 </section>
-<section id="ai"><h2>3. 외부 AI 처리와 국외 전송</h2>
-<p>전문가 풀이 기능은 기기의 계산 결과를 외부 AI에 전달하여 해석을 작성하는 기능입니다. 사용자가 이 기능을 요청할 때 다음 정보가 전송됩니다.</p>
-<dl class="facts">
-<div><dt>서비스·수신자</dt><dd>Grok API (xAI) · SpaceX Super Intelligence LLC</dd></div>
-<div><dt>전송 항목</dt><dd>이름 또는 별칭, 생년월일시, 성별, 사주 계산 결과와 이를 설명하는 풀이 요청문</dd></div>
-<div><dt>목적</dt><dd>요청한 사주 해석 생성·반환 및 제공사의 보안·오남용 방지</dd></div>
-<div><dt>시점·방법</dt><dd>전문가 풀이 요청 시 HTTPS로 api.x.ai에 전송</dd></div>
-<div><dt>처리 지역</dt><dd>제공사는 미국 소재 법인입니다. 현재 앱의 글로벌 API는 처리 지역을 한 국가로 고정하지 않으며 제공사의 지역 간 라우팅에 따라 처리 위치가 달라질 수 있습니다.</dd></div>
-<div><dt>보관 기준</dt><dd>제공사의 공개 API 정책상 일반 요청·응답은 보안·오남용 조사 목적으로 기본 30일 보관 후 삭제됩니다. 법률상 의무, 보안 조사 또는 별도 계약·설정에 따른 예외가 적용될 수 있습니다. 외부 서비스의 즉시 삭제나 무보관을 보장하지 않습니다.</dd></div>
-<div><dt>학습 이용</dt><dd>제공사는 별도 명시적 허락 없이 API 입력·출력을 모델 학습에 사용하지 않는다고 안내합니다.</dd></div>
-<div><dt>전송 거부 방법</dt><dd>전문가 풀이를 요청하지 않고 기기 내 기본 만세력과 기록 기능을 이용할 수 있습니다. 관련 문의·삭제 요청은 코인시던스 이메일로 접수할 수 있습니다.</dd></div>
-</dl>
-<p>외부 서버는 요청 처리 과정에서 접속 IP와 요청 시각 등 통신 정보를 처리할 수 있습니다. 앱에 저장한 풀이 사본은 기기에 보관되며, 기기에서 삭제해도 외부 서비스에 이미 전달된 정보가 즉시 삭제되는 것은 아닙니다.</p>
-<p>제공사 연락처: <a href="mailto:support@x.ai">support@x.ai</a> · <a href="mailto:legal@x.ai">legal@x.ai</a></p>
-<p>공식 처리 기준: <a href="https://x.ai/legal/terms-of-service-enterprise">API 기업용 약관</a> · <a href="https://docs.x.ai/developers/faq/security">API 보관·학습 정책</a> · <a href="https://docs.x.ai/developers/advanced-api-usage/regions">처리 지역 안내</a></p>
-</section>
+<section id="ai"><h2>3. 정식판과 AI판의 구분</h2>
+<p><strong>현재 정식판은 AI 풀이 기능과 외부 AI 호출을 제공하지 않습니다.</strong> 사주 계산, 기록 관리와 비교는 기기 안에서 처리하며, 이름·생년월일시·성별·계산 결과를 외부 AI 서버에 보내지 않습니다.</p>
+<p>AI 풀이가 포함된 별도 앱은 ‘팔자격파 AI’이며 패키지명은 kr.ai.coincidence.paljagyeokpa.ai입니다. 이 정식판의 기능과 혼동하지 않도록 구분합니다. AI판의 사용과 전송에는 해당 앱에 제공되는 별도 안내를 확인해 주세요.</p>
+<details><summary>과거 AI 기능이 있던 테스트 버전을 이용한 경우</summary>
+<p>이전에 배포된 AI 지원 테스트 버전에서 전문가 풀이를 요청했다면 이름 또는 별칭, 생년월일시, 성별, 계산 결과와 요청문이 HTTPS로 Grok API(api.x.ai)에 전송되었을 수 있습니다. 현재 정식판으로 업데이트하면 새로운 AI 요청은 수행하지 않습니다.</p>
+<p>수신자는 Grok API 제공사 SpaceX Super Intelligence LLC(xAI)이며 미국 소재 법인입니다. 글로벌 API의 실제 처리 지역은 제공사의 라우팅에 따라 달라질 수 있습니다. 공개 API 정책상 요청·응답은 보안·오남용 조사 목적으로 기본 30일 보관 후 삭제되며 법률상 의무·보안 조사·계약 또는 설정에 따른 예외가 있을 수 있습니다. 제공사는 명시적 허락 없이 API 입력·출력을 학습에 사용하지 않는다고 안내합니다.</p>
+<p>기기의 기록 삭제는 과거에 전송된 정보의 즉시 삭제를 뜻하지 않습니다. 과거 전송에 관한 문의·삭제 요청은 코인시던스 이메일 또는 제공사 <a href="mailto:support@x.ai">support@x.ai</a>로 접수할 수 있습니다.</p>
+<p>제공사 기준: <a href="https://x.ai/legal/terms-of-service-enterprise">API 기업용 약관</a> · <a href="https://docs.x.ai/developers/faq/security">보관·학습 정책</a> · <a href="https://docs.x.ai/developers/advanced-api-usage/regions">처리 지역 안내</a></p>
+</details></section>
 <section id="services"><h2>4. 기타 외부 서비스</h2><ul>
-<li><strong>기기 AI:</strong> 지원 기기에서 사용하는 온디바이스 AI는 기기의 AI 구성요소를 이용합니다. 외부 Grok API 풀이와 처리 방식이 다르며, 기기 서비스 업데이트·이용에는 해당 제공자의 정책이 적용됩니다.</li>
 <li><strong>글꼴:</strong> 필요한 글꼴이 기기에 없으면 Google Fonts에서 내려받을 수 있습니다. 접속 IP와 글꼴 요청 등 통신 정보가 전달될 수 있으나 앱은 글꼴 요청에 사주 입력 정보를 포함하지 않습니다. <a href="https://developers.google.com/fonts/faq/privacy">Google Fonts 안내</a></li>
 <li><strong>정책 페이지 호스팅:</strong> 이 페이지는 GitHub Pages에서 제공합니다. GitHub는 방문 시 접속 IP와 요청 정보 등을 처리할 수 있으며 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보처리방침</a>이 적용됩니다. 이 페이지에는 별도의 방문 분석 스크립트나 입력 폼을 두지 않습니다.</li>
 <li><strong>이메일 문의:</strong> 메일 발신 주소와 내용은 Gmail 등 이메일 서비스에서 처리됩니다. 주민등록번호, API 키와 인증 토큰 등 민감한 정보는 첨부하지 마세요.</li>
 </ul></section>
 <section id="retention"><h2>5. 보유 기간과 파기</h2><ul>
 <li><strong>사주 기록·그룹·풀이:</strong> 사용자가 앱에서 삭제하거나 운영체제에서 앱 데이터를 삭제할 때까지 기기에 보관됩니다. 앱 제거 시 기기 안의 앱 데이터는 운영체제에 따라 삭제되며, 별도 백업 사본은 남을 수 있습니다.</li>
-<li><strong>설정·인증 정보:</strong> 해당 설정·토큰 또는 앱 데이터를 삭제할 때까지 기기에 보관됩니다.</li>
-<li><strong>외부 AI 전송 정보:</strong> 제3항의 제공사 보관 기준이 적용됩니다. 기기 내 삭제와 외부 서비스 측 삭제는 구분하여 처리합니다.</li>
+<li><strong>설정:</strong> 사용자가 설정을 변경하거나 앱 데이터를 삭제할 때까지 기기에 보관됩니다.</li>
+<li><strong>과거 테스트 버전의 AI 전송 정보:</strong> 해당 버전에서 이미 전송된 정보에는 제3항의 제공사 보관 기준이 적용됩니다. 정식판은 새로운 외부 AI 전송을 수행하지 않습니다.</li>
 <li><strong>문의 정보:</strong> 문의·권리행사 처리와 후속 확인이 끝나 보관 필요가 없어지면 지체 없이 삭제합니다. 법령상 보존 의무가 있으면 해당 범위·기간에 한해 분리 보관합니다.</li>
 </ul><p>코인시던스가 직접 보유하는 전자파일은 복구하기 어려운 방식으로 삭제하고, 출력물이 있다면 분쇄 등의 방법으로 파기합니다. 사용자가 따로 보관하거나 다른 대상에 전달한 파일은 해당 보관 위치에서 별도로 삭제해야 합니다.</p></section>
 <section id="sharing"><h2>6. 공유·백업과 기기 이전</h2>
 <p>결과 이미지와 백업 파일 공유는 사용자가 선택한 앱·수신자에게 정보를 전달합니다. 백업 JSON에는 이름, 생년월일시, 사주 기록, 그룹과 저장된 풀이 등이 포함될 수 있으며 <strong>평문으로 내보냅니다.</strong> API 키와 앱 설정은 사주 백업 파일에 포함하지 않습니다.</p>
 <p>Android 백업·기기 이전이 켜져 있으면 운영체제와 기기 설정에 따라 앱 데이터가 백업되거나 이전될 수 있습니다. 이는 앱의 수동 JSON 백업과 별개입니다. 백업 범위와 삭제는 Android·Google 백업 설정 및 사용 중인 저장 서비스에서 관리해 주세요.</p>
-<p>코인시던스는 사용자가 선택한 공유, 요청한 외부 서비스 처리 또는 관계 법령에 따른 경우를 제외하고 사주 기록을 다른 기관에 임의로 제공하거나 판매하지 않습니다.</p>
+<p>코인시던스는 정식판의 사주 기록을 운영 서버로 자동 수집하지 않습니다. 사용자가 선택한 공유·백업 또는 관계 법령에 따른 경우를 제외하고 사주 기록을 다른 기관에 임의로 제공하거나 판매하지 않습니다.</p>
 </section>
 <section id="rights"><h2>7. 이용자의 권리와 행사 방법</h2>
 <p>이용자와 정당한 대리인은 개인정보의 열람, 정정, 삭제, 처리정지 및 동의 철회를 요청할 수 있습니다.</p><ol>
 <li><strong>기기 기록:</strong> 저장 기록 화면에서 삭제하거나 입력 내용을 바꾸어 다시 계산할 수 있습니다. 전체 앱 데이터 삭제는 Android의 앱 저장공간 설정에서 할 수 있습니다.</li>
-<li><strong>외부 AI:</strong> 전문가 풀이를 이용하지 않으면 새로운 풀이 요청에 따른 전송을 중단할 수 있습니다. 이미 전송된 정보의 문의·삭제는 이메일로 접수해 주세요. 제공사의 보관 의무와 보유 범위를 확인해 가능한 조치를 안내합니다.</li>
+<li><strong>과거 외부 AI 전송:</strong> 현재 정식판에서는 새 AI 전송이 발생하지 않습니다. 이전 테스트 버전에서 이미 전송한 정보의 문의·삭제는 이메일로 접수해 주세요. 제공사의 보관 의무와 보유 범위를 확인해 가능한 조치를 안내합니다.</li>
 <li><strong>이메일:</strong> <a href="mailto:coincidence0407@gmail.com">coincidence0407@gmail.com</a>으로 앱 이름과 요청 내용을 보내 주세요. 필요한 경우 요청자 확인을 위한 최소한의 정보를 추가로 요청할 수 있습니다. 기기에만 있는 기록은 운영자가 원격으로 열람·삭제할 수 없습니다.</li>
 </ol><p>앱 자체의 회원가입 계정은 없습니다. 기기 기록 삭제와 Google·외부 서비스 계정 삭제는 별개이며 외부 계정은 해당 서비스에서 관리해야 합니다.</p>
 <p>추가 상담·분쟁 해결은 <a href="https://privacy.kisa.or.kr/">개인정보침해신고센터</a>(국번 없이 118), <a href="https://www.kopico.go.kr/">개인정보분쟁조정위원회</a>(1833-6972)에 문의할 수 있습니다.</p>
 </section>
 <section id="security"><h2>8. 안전성 확보와 앱 권한</h2>
-<p>외부 API 통신에 HTTPS를 사용하며, 입력한 인증 토큰은 운영체제의 보안 저장소를 이용합니다. 일반 사주 기록과 평문 백업 파일이 모두 암호화되어 있는 것은 아닙니다. 기기 잠금과 백업 보안 설정을 함께 관리해 주세요.</p>
-<p>네트워크 기반 풀이와 외부 자료 연결에는 인터넷 연결을 이용합니다. 현재 앱은 만세력 계산을 위해 연락처, 정확한 위치, 마이크 또는 카메라 접근을 요구하지 않습니다. 처리 항목이나 권한이 바뀌면 방침과 필요한 안내를 갱신합니다.</p>
+<p>앱 데이터는 운영체제의 앱별 저장 공간에 보관하며 글꼴 다운로드 등 네트워크 통신에는 HTTPS를 사용합니다. 일반 사주 기록과 평문 백업 파일이 모두 암호화되어 있는 것은 아닙니다. 기기 잠금과 백업 보안 설정을 함께 관리해 주세요.</p>
+<p>글꼴 다운로드 및 사용자가 여는 개인정보처리방침 페이지에는 인터넷 연결을 이용합니다. 현재 앱은 만세력 계산을 위해 연락처, 정확한 위치, 마이크 또는 카메라 접근을 요구하지 않습니다. 처리 항목이나 권한이 바뀌면 방침과 필요한 안내를 갱신합니다.</p>
 </section>
 <section id="children"><h2>9. 아동 및 타인의 정보</h2>
-<p>타인의 사주를 저장·공유하거나 AI 풀이를 요청할 때에는 정보를 처리할 정당한 권한과 필요한 동의를 확인해 주세요. 아동의 정보에 관한 법정대리인의 열람·정정·삭제 요청은 위 문의처로 접수할 수 있습니다.</p>
+<p>타인의 사주를 저장·공유할 때에는 정보를 처리할 정당한 권한과 필요한 동의를 확인해 주세요. 아동의 정보에 관한 법정대리인의 열람·정정·삭제 요청은 위 문의처로 접수할 수 있습니다.</p>
 </section>
 <section id="changes"><h2>10. 방침 변경과 이력</h2>
 <p>처리 항목, 외부 서비스 또는 보관 방식이 바뀌면 이 페이지와 시행일을 갱신합니다. 법령상 별도 고지나 동의가 필요한 변경에는 해당 절차를 따릅니다.</p>
-<ul><li><time datetime="2026-10-30">2026년 10월 30일</time>: 팔자격파 개인정보처리방침 최초 게시.</li></ul><p><a href="#policy">문서 맨 위로</a></p>
+<ul><li><time datetime="2026-10-30">2026년 10월 30일</time>: 최초 게시 및 AI 풀이 없는 정식판과 과거 테스트 버전의 처리 범위 구분.</li></ul><p><a href="#policy">문서 맨 위로</a></p>
 </section>
 </main>
 <footer>© 2026 코인시던스 · <a href="/">회사 홈페이지</a> · <a href="mailto:coincidence0407@gmail.com">개인정보 문의</a></footer>
